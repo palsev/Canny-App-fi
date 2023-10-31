@@ -734,7 +734,7 @@
             b = k.basicInfo,
             C = (0, o.useMemo)(
               function () {
-                var e = [n, a, s, m, b];
+                var e = [n, a, s, m];
                 return {
                   myLocked: e.reduce(function (e, t) {
                     return null == t ? void 0 : t.myLocked.plus(e);
@@ -744,12 +744,12 @@
                   }, (0, l.F6)(0))
                 };
               },
-              [n, a, s, m, b]
+              [n, a, s, m]
             ),
             F = C.myLocked,
             I = C.totalLocked;
           return {
-            list: [t, y, c, i, p],
+            list: [t, c, i, p],
             info: {
               myLocked: (0, l.FR)(F, !0, null, 2),
               totlaLocked: (0, l.FR)(I, !0, null, 2)

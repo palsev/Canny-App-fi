@@ -164,7 +164,7 @@
       }
       var g = s(39657),
         k = s.n(g),
-        L = ["All", "canCNX", "canUSD", "canCRY"];
+        L = ["All", "canCNX", "canUSD"];
       function N() {
         var e = (0, l.useState)(L[0]),
           t = e[0],
